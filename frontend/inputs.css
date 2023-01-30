@@ -1,0 +1,42 @@
+
+.inputs{
+    color: #fff;
+    display: block;
+    padding: 20px;
+    margin-top: 20px;
+   
+    /* box-shadow:  10px 10px 25px -7px #e4e4e4; */
+}
+form {
+ 
+    text-align: center;
+    display: block;
+  }
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  select {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+  }
+  .generate{
+
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    justify-self:center;
+    padding: 13px 85px ;
+    
+  }
+  .generate:hover{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+  }
