@@ -19,7 +19,7 @@
     <!-- Nav bar  -->
     <header>
         <div class="logo">
-          <img src="logo2.png" alt="Logo">
+          <img src="logo5.png" alt="Logo">
         </div>
         <nav>
           <ul>
@@ -44,7 +44,7 @@
       <!-- inputs -->
       <div class="inputs">
         <form>
-      <label for="modes"><b style="font-size: x-large;">Select Mode</b></label>
+      <label for="modes">Select Mode</label>
       <select id="modes" name="Modes">
         <option value="Phrygian">Phrygian</option>
         <option value="Aeolian">Aeolian</option>
@@ -54,15 +54,26 @@
         <option value="Mixolydian ">Mixolydian</option>
         <option value="Locrian ">Locrian</option>
       </select>
-     <br><br>
-      <label for="notes"><b style="font-size: x-large;">Select Note     </b></label>
+     <br>
+      <label for="notes">Select Note</label>
       <select id="notes" name="notes">
         <option value="option1">C</option>
         <option value="option1">C#</option>
         <option value="option2">D</option>
-        <option value="option3">D#</option>
+        <option value="option2">D#</option>
+        <option value="option3">E</option>
+        <option value="option3">F</option>
+        <option value="option3">F#</option>
+        <option value="option3">G</option>
+        <option value="option3">G#</option>
+        <option value="option3">A</option>
+        <option value="option3">A#</option>
+        <option value="option3">B</option>
       </select>
-      <br><br>
+      <br>
+      <label  for="fname" >Input sequence </label>
+      <input id="sequence" type="text" placeholder="C,D,E,F#" id="fname" name="fname">
+      <br>
       <button type="button" class="generate">Generate music</button>    
     </form>
 </div>

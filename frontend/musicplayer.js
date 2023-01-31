@@ -55,7 +55,7 @@ let track_list = [
 
 //   // Set the background to that color
 //   document.body.style.background = bgColor;
-// }
+//}
 
 function loadTrack(track_index) {
   clearInterval(updateTimer);

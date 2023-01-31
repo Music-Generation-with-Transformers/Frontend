@@ -15,8 +15,11 @@ form {
   label {
     font-weight: bold;
     margin-right: 10px;
+    font-size: x-large;
+    color: #90F5C3;
   }
-  select {
+
+  #modes,#notes,#sequence{
     padding: 10px;
     font-size: 18px;
     border-radius: 10px;
@@ -25,18 +28,24 @@ form {
     width: 150px;
     text-align: center;
     margin: auto;
+    display: block;
+    background-color: black;
+    color: white;
   }
+ 
   .generate{
 
-    font-size: 18px;
+    font-size: 19px;
     border-radius: 10px;
     border: 1px solid gray;
     justify-self:center;
-    padding: 13px 85px ;
+    padding: 13px 40px ;
+    background-color: black;
+    color: white;
     
   }
   .generate:hover{
     cursor: pointer;
-    background-color: green;
-    color: white;
+    color: #90F5C3;
+    border: solid #90F5C3 1px;
   }
