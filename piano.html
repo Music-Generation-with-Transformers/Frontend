@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="piano.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="notes">
+       <br>
+        <p  id="sequence"> </p>
+        <!-- <label  for="fname" >Notes Played </label>
+      <input id="sequence" type="text"  id="fname" name="fname">
+      <br> -->
+      <br>
+        <br>
+         <p  id="Duration"> </p>
+         <!-- <label  for="fname" >Notes Played </label>
+       <input id="sequence" type="text"  id="fname" name="fname">
+       <br> -->
+       <br>
+     </div>
+    
+    <div id="piano">
+        <div class="keys">
+
+    <div class="key white "><span class="white-words">z</span></div>
+
+    <div class="key black "><span class="black-words">1</span></div>
+
+    <div class="key white "><span class="white-words">x</span></div>
+
+    <div class="key black "><span class="black-words">2</span></div>
+
+    <div class="key white "><span class="white-words">c</span></div>
+    <div class="key white "><span class="white-words">v</span></div>
+
+    <div class="key black "><span class="black-words">3</span></div>
+    <div class="key white "><span class="white-words">b</span></div>
+    <div class="key black "><span class="black-words">4</span></div>
+    <div class="key white "><span class="white-words">n</span></div>
+    <div class="key black "><span class="black-words">5</span></div>
+    <div class="key white "><span class="white-words">m</span></div>
+    <div class="key white "><span class="white-words">,</span></div>
+    <div class="key black "><span class="black-words">6</span></div>
+    <div class="key white "><span class="white-words">.</span></div>
+    <div class="key black "><span class="black-words">7</span></div>
+    <div class="key white "><span class="white-words">q</span></div>
+    <div class="key white "><span class="white-words">w</span></div>
+    <div class="key black "><span class="black-words">8</span></div>
+    <div class="key white "><span class="white-words">e</span></div>
+    <div class="key black "><span class="black-words">9</span></div>
+    <div class="key white "><span class="white-words">r</span></div>
+    <div class="key black "><span class="black-words">/</span></div>
+    <div class="key white "><span class="white-words">t</span></div>
+    <div class="key white "><span class="white-words">y</span></div>
+    <div class="key black "><span class="black-words">;</span></div>
+    <div class="key white "><span class="white-words">u</span></div>
+    <div class="key black "><span class="black-words">'</span></div>
+    <div class="key white "><span class="white-words">i</span></div>
+    <div class="key white "><span class="white-words">o</span></div>
+    <div class="key black "><span class="black-words">[</span></div>
+    <div class="key white "><span class="white-words">p</span></div>
+    <div class="key black "><span class="black-words">]</span></div>
+    <div class="key white "><span class="white-words">a</span></div>
+    <div class="key black "><span class="black-words">0</span></div>
+    <div class="key white "><span class="white-words">s</span></div>
+    <div class="key white "><span class="white-words">d</span></div>
+    <div class="key black "><span class="black-words">-</span></div>
+    <div class="key white "><span class="white-words">f</span></div>
+    <div class="key black "><span class="black-words">=</span></div>
+    <div class="key white "><span class="white-words">g</span></div>
+    <div class="key white "><span class="white-words">h</span></div>
+    <div class="key black "><span class="black-words">@</span></div>
+    <div class="key white "><span class="white-words">j</span></div>
+    <div class="key black "><span class="black-words"> </span></div>
+    <div class="key white "><span class="white-words">k</span></div>
+    <div class="key black "><span class="black-words">`</span></div>
+    <div class="key white "><span class="white-words">l</span></div>
+<!-- s
+            <div class="black-keys">
+                <div id="C0#" class="key black-key"><span class="black-words">C0#</span></div>
+                <div id="D0#" class="key black-key"><span class="black-words">D0#</span></div>
+                <div id="F0#" class="key black-key"><span class="black-words">F0#</span></div>
+                <div id="G0#" class="key black-key"><span class="black-words">G0#</span></div>
+                <div id="A0#" class="key black-key"><span class="black-words">A0#</span></div>
+                <div id="C1#" class="key black-key"><span class="black-words">C1#</span></div>
+                <div id="F1#" class="key black-key"><span class="black-words">F1#</span></div>
+                <div id="F1#" class="key black-key"><span class="black-words">F1#</span></div>
+                <div id="G1#" class="key black-key"><span class="black-words">G1#</span></div>
+                <div id="A1#" class="key black-key"><span class="black-words">A1#</span></div>
+                <div id="A1#" class="key black-key"><span class="black-words">A1#</span></div>
+                <div id="A1#" class="key black-key"><span class="black-words">A1#</span></div>
+                <div id="A1#" class="key black-key"><span class="black-words">A1#</span></div>
+                <div id="A1#" class="key black-key"><span class="black-words">A1#</span></div>
+                <div id="A1#" class="key black-key"><span class="black-words">A1#</span></div>
+            </div>
+
+
+            <div class="white-keys">
+            <div class="key white-key"><span class="white-words">C0</span></div>
+            <div class="key white-key"><span class="white-words">D0</span></div>
+            <div class="key white-key"><span class="white-words">E0</span></div>
+            <div class="key white-key"><span class="white-words">F0</span></div>
+            <div class="key white-key"><span class="white-words">G0</span></div>
+            <div class="key white-key"><span class="white-words">A0</span></div>
+            <div class="key white-key"><span class="white-words">B0</span></div>
+            <div class="key white-key"><span class="white-words">C1</span></div>
+            <div class="key white-key"><span class="white-words">D1</span></div>
+            <div class="key white-key"><span class="white-words">E1</span></div>
+            <div class="key white-key"><span class="white-words">F1</span></div>
+            <div class="key white-key"><span class="white-words">G1</span></div>
+            <div class="key white-key"><span class="white-words">A1</span></div>
+            <div class="key white-key"><span class="white-words">B1</span></div>
+            <div class="key white-key"><span class="white-words">B1</span></div>
+            <div class="key white-key"><span class="white-words">B1</span></div>
+            <div class="key white-key"><span class="white-words">B1</span></div>
+            <div class="key white-key"><span class="white-words">B1</span></div>
+            <div class="key white-key"><span class="white-words">B1</span></div>
+            <div class="key white-key"><span class="white-words">B1</span></div>
+            <div class="key white-key"><span class="white-words">B1</span></div>
+        </div> -->
+
+        
+        </div>
+    </div>
+    <script src="piano.js"></script>
+</body>
+</html>
